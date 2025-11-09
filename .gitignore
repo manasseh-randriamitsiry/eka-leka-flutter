@@ -1,4 +1,6 @@
 .project
+/dist
+/build
 .settings
 salesforce.schema
 Referenced Packages
