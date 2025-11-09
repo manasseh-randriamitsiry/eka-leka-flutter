@@ -25,18 +25,18 @@ A comprehensive Windows installer that automatically sets up a complete Flutter 
 ## 🎯 Quick Start
 
 ### Option 1: Using the Executable (Recommended)
-1. Download `FlutterInstaller.exe` from the `dist/` directory
+1. Download `FlutterInstaller.exe` from release
 2. Right-click and "Run as administrator"
 3. Follow the GUI prompts to select versions and install
 
 ### Option 2: Using the PowerShell Script
-1. Open PowerShell as administrator
-2. Navigate to the project directory
-3. Run: `.\install_flutter_windows.ps1`
+1. Download the script from release and Open PowerShell as administrator
+2. Navigate to the download directory
+3. Run: `.\install_flutter_powershell.ps1`
 
 ### Option 3: Using the Python Script
 1. Install Python dependencies: `pip install tkinter`
-2. Run: `python flutter_installer_ui/main.py`
+2. Run: `python main.py`
 
 ## 🛠️ Installation Options
 
@@ -88,15 +88,12 @@ eka-leka-flutter/
 │   └── main.py                 # GUI application
 ├── install_flutter_windows.ps1 # PowerShell installer script
 ├── FlutterInstaller.spec       # PyInstaller specification
-├── dist/
-│   └── FlutterInstaller.exe    # Compiled executable
-├── build/                      # Build artifacts
 └── README.md                   # This file
 ```
 
 ## 🔍 Verification
 
-After installation, restart your computer and run:
+After installation, restart your computer if necessary and run:
 
 ```bash
 flutter doctor
@@ -167,4 +164,4 @@ pyinstaller FlutterInstaller.spec
 
 ---
 
-**Note**: This installer is designed for Windows systems. For macOS or Linux, please refer to the official Flutter documentation for platform-specific installation instructions.
+**Note**: This installer is designed for Windows systems. For macOS or Linux, please refer to the official Flutter documentation for platform-specific installation instructions or use IA to convert the script into a bash script and you can create your own.
